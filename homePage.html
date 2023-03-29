@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elaan</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="vendor/css/animate.css">
+    <link rel="stylesheet" href="vendor/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/nav_component.css" />
+    <link rel="stylesheet" type="text/css" href="css/homepage.css" />
+    <script src="js/nav_modernizr-custom.js"></script>
+    <!-- NAVBAR STYLING -->
+    <link rel="stylesheet" type="text/css" href="css/navbar.css" />
+    <style>
+        .hameid-loader-overlay {
+            width: 100%;
+            height: 100%;
+            background: url('images/1-dancing.gif') center no-repeat #FFF;
+            z-index: 99999;
+            position: fixed;
+        }
+    </style>
+
+</head>
+
+<body style="background: url('./images/bg_home-100.jpg'); background-position: center top;background-size: cover">
+    <!-- PRELOADER -->
+    <div class="hameid-loader-overlay">
+    </div>
+
+    <div id="main" style="height: 100%;width: 100%;">
+
+        <!-- HEADER -->
+        <div class="header_fixed" style="text-align: center; height:8em; background: url('./images/header.png'); background-position: center top;background-size: cover;">
+            <div style="display: inline-block; height: 100%;">
+                <img src="./images/apeejay.png" style="max-width: 100%;max-height:80%;height: auto;width: auto;">
+            </div>
+        </div>
+        <!-- TYPED -->
+        <div style="text-align: center; padding-top: 14px; height:59px; background: url('./images/info2.png'); font-size: 19px;background-position: center top;background-size: contain; background-repeat: no-repeat;font-family: 'Oswald';color:white;" id="info">
+        </div>
+        <!-- MENU -->
+        <div class="menu">
+            <div class="col-md-10 col-md-offset-1 col-sm-12">
+                <div class="col-md-4 col-sm-4">
+                    <ul class="menu-center">
+                        <li class="left" style="padding-top: 4cm; padding-right: 70px;"><a href="team.html">EVENT ORGANISERS<img src="./images2/about_us1.png" style="height:40px;width: auto;"></a></li>
+                        <li class="left" style="padding-top: 2cm; padding-right: 70px;"><a href=" # ">EVENTS <img src="./images2/events1.png " style="height:40px;width: auto; "></a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-4 ">
+                    <div style="display:block; text-align: center;">
+                        <a href="https://www.youtube.com/watch?v=lb6IVwCRjrM "><img src="./images/anadi.jpeg " class="img-responsive animated infinite pulse " width="350" height="700" max-width: 100%; height: auto; style="padding-top: 50px;"></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 ">
+                    <ul class="menu-center ">
+                        <li class="right " style="padding-top: 4cm; padding-left: 70px;">
+                            <a href="https://university.apeejay.edu/about-us/about-the-university"><img src="./images2/sponsor1.png " style="height:40px;width: auto; "> ABOUT UNIVERSITY</a>
+                        </li>
+                        <li class="right " style="padding-top: 2cm; padding-left: 70px;">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIK7W-8lXP5xdIfmVeQ6o2TikxKjw9LYzGGVA4cDjxvHFyGw/viewform"><img src="./images2/register1.png " style="height:40px;width: auto; "> REGISTER</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="menu_mob ">
+            <div class="col-sm-12 menu-center ">
+                <a href="https://www.youtube.com/watch?v=lb6IVwCRjrM " target="_blank ">
+                    <<img src="./images/anadi.jpeg " class="img-responsive animated infinite pulse " style="height: 8cm;margin:auto; "></a>
+
+                <ul class="menu-center " style="padding-top: 90px;">
+                    <li style="font-size: 23px;"><a href="team.html">EVENT ORGANISERS</a></li>
+                    <li style="font-size: 23px;"><a href="# ">EVENTS</a></li>
+                    <li style="font-size: 23px;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeIK7W-8lXP5xdIfmVeQ6o2TikxKjw9LYzGGVA4cDjxvHFyGw/viewform" target="_blank">REGISTER YOURSELF</a></li>
+                    <li style="font-size: 23px;"><a href="https://university.apeejay.edu/about-us/about-the-university" target="_blank">ABOUT UNIVERSITY</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer ">
+        <a href="https://twitter.com/apeejayuniv?lang=en " target="_blank "> <span class="fa fa-twitter social "></span></a>
+        <a href="https://www.facebook.com/ApeejayStyaUniv " target="_blank "><span class="fa fa-facebook "> </span></a>
+
+        <a href="https://www.youtube.com/@ApeejayStyaUniversity/about " target="_blank "><span class="fa fa-youtube "> </span></a>
+    </div>
+    <script src="vendor/js/jquery-3.3.1.min.js "></script>
+    <script>
+        $(document).ready(function() {
+            console.log("READY ");
+            $('.hameid-loader-overlay').delay(1000).fadeOut();
+            $('#main').delay(5000).fadeIn();
+        });
+    </script>
+    <script src="vendor/js/typed.js "></script>
+    <script src="js/typing.js "></script>
+    <noscript>
+	    <style>.hameid-loader-overlay { display: none; } </style>
+	</noscript>
+
+    <script src="vendor/js/bootstrap.min.js "></script>
+    <script src="js/nav_main.js "></script>
+    <!-- NAVBAR JS -->
+    <script src="js/navbar.js "></script>
+</body>
+
+</html>
